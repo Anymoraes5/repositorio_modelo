@@ -23,5 +23,28 @@ O nome do repostório deve ser o mesmo do projeto. Por exemplo: Projeto Siga
 
 ## Na raiz do projeto 
 - deve ter:
-    - .gitignore
-    -
+    - .gitignore: é utilizado para informar ao git quais extensões ou pastas devem ser ignoradas
+    - licese: é informado qual é a licença do projeto (Obrigatorio quando o projeto é publico) 
+    - contributing: é informado quem são os autores e como contribuir
+    - changelog: é utilizado para informar o Histórico de Versões do projeto
+
+## Gerenciar branchs 
+- um projeto deve ter algumas dessas branchs abaixo:
+    - main(master): Versão estável do projeto (ou aquilo que o publico está utilizando no momento)
+    - homolog: 
+        - Versão posterior a de desenvolvimento, ou seja, é a de testes. Antecipa a main 
+        - no final pe mesclada com a main
+        - no final é atualizada no final de cada sprint, recebendo as modificações da develop
+    - develop:
+        - Versão em desenvolvimento, normalmente é utilizado por Desenvolvedores do projeto.
+        - Centralizadora das modificações realizadas pelos devs
+        - Normalmente a develop é mais atualizada comparada a main e homolog
+    - branchs relacionadas ao card do kanban:
+        - Por exemplo -> [sulfixo-atomico]/[nome-card]
+        - Cada card do kanban vai ter uma branch
+        - Cada dev pega um ou N cards do kanban
+        - Cada branch é baseada na develop
+        - No final é mesclada a develop
+
+    - Flow das branchs:
+        - branch-de-trabalho -> develop -> homolog -> main
