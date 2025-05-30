@@ -17,5 +17,11 @@ O nome do repostório deve ser o mesmo do projeto. Por exemplo: Projeto Siga
   - /docs -> pasta é indicada para guardar imagens ou docs relacionadas ao projeto. Por exemplo: Diagramas, Fluxogramas, etc
 
 ## Utilizar boas práticas e commits 
-- Commit Atômico: realizar commits pequenos -> a unidade de trabalho
-- commit Semantico: É informar com sufixo e em poucas palavras o que foi realizados nessa unidade de trabalho 
+- É necessario realizar os dois:
+    - Commit Atômico: realizar commits pequenos -> a unidade de trabalho
+    - commit Semantico: É informar com sufixo e em poucas palavras o que foi realizados nessa unidade de trabalho 
+
+## Na raiz do projeto 
+- deve ter:
+    - .gitignore
+    -

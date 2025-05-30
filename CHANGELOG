@@ -1,0 +1,11 @@
+# Versions
+- É um doc. utilizado para informar as mudanças que ocorreu no projeto. Por exemplo:
+- É normalmente usado utilizado como histórico de commits
+## 1.0 
+### Added
+- Estruturação do projeto 
+- Mvp do Back-End 
+- Mvp do Front-End
+
+### Change 
+### Remove
