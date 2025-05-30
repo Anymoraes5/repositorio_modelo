@@ -33,9 +33,12 @@ O nome do repostório deve ser o mesmo do projeto. Por exemplo: Projeto Siga
     - main(master): Versão estável do projeto (ou aquilo que o publico está utilizando no momento)
     - homolog: 
         - Versão posterior a de desenvolvimento, ou seja, é a de testes. Antecipa a main 
+        - no final pe mesclada com a main
+        - no final é atualizada no final de cada sprint, recebendo as modificações da develop
     - develop:
         - Versão em desenvolvimento, normalmente é utilizado por Desenvolvedores do projeto.
         - Centralizadora das modificações realizadas pelos devs
+        - Normalmente a develop é mais atualizada comparada a main e homolog
     - branchs relacionadas ao card do kanban:
         - Por exemplo -> [sulfixo-atomico]/[nome-card]
         - Cada card do kanban vai ter uma branch
