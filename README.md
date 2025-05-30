@@ -16,3 +16,6 @@ O nome do repostório deve ser o mesmo do projeto. Por exemplo: Projeto Siga
   - /config -> (ou scripts) arquivos de configuração ou intalação de bibliotecas do projeto (isso também pode ficar na raiz do projeto - é uma pasta opcional)
   - /docs -> pasta é indicada para guardar imagens ou docs relacionadas ao projeto. Por exemplo: Diagramas, Fluxogramas, etc
 
+## Utilizar boas práticas e commits 
+- Commit Atômico: realizar commits pequenos -> a unidade de trabalho
+- commit Semantico: É informar com sufixo e em poucas palavras o que foi realizados nessa unidade de trabalho 
